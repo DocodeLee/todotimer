@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color : skyblue;
+    padding: 20px;
+}
+
+#app {
+    max-width : 600px;
+    margin: 0 auto;
+    background-color : #fff;
+    padding : 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px darkgray;
+}
+
+#taskInput {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+    margin-right : 10px;
+}
+
+#addTaskBtn{
+    padding :  8px 20px;
+    font-size : 16px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    background-color : #def7ff;
+    margin-bottom: 5px;
+    border-radius : 5px;
+}
+.taskButtons{
+    float: right;
+}
+
+.taskButtons button{
+    padding: 4px 4px;
+    margin-left: 6px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.taskButtons button.startBtn {
+    background-color: #80ed8e;
+    color: black;
+}
+
+.taskButtons button.startBtn:hover {
+    background-color: #289c37;
+    color: white;
+}
+
+.taskButtons button.stopBtn {
+    background-color: #80ed8e;
+    color: black;
+}
+
+.taskButtons button.stopBtn:hover {
+    background-color:#289c37;
+    color: white;
+}
+
+.taskButtons button.resetBtn {
+    background-color:#80ed8e;
+    color: black;
+}
+
+.taskButtons button.resetBtn:hover {
+    background-color: #289c37;
+    color: white;
+}
+
+.taskButtons button.deleteBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+.taskButtons button.deleteBtn:hover {
+    background-color: #da190b;
+}
